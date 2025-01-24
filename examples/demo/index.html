@@ -6,18 +6,18 @@
   <link rel="stylesheet" href="../../dist/style.css">
   
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <script src="../../dist/ShowMidi.umd.js"></script>
+  <script src="../../dist/MidiMama.umd.js"></script>
 </head>
 <body>
   <div id="app">
-    <show-midi text="Hello from demo!" /> 
+    <midi-mama text="Hello from demo!" /> 
   </div>
   <script>
-    console.log(window.ShowMidi) // Should show your component
+    console.log(window.MidiMama) // Should show your component
     const { createApp } = Vue
     const app = createApp({})
-    app.component('ShowMidi', ShowMidi)
-   // console.log(app._context.components.ShowMidi) // Should
+    app.component('MidiMama', MidiMama)
+  
     app.mount('#app')
   </script>
 </body>

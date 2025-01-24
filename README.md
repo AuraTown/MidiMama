@@ -1,19 +1,19 @@
-# ShowMidi-web
+# MIDI Mama (web)
 
-ShowMidi is a Vue 3 component that brings comprehensive MIDI monitoring capabilities to web applications. This project is inspired by [ShowMIDI](https://github.com/gbevin/ShowMIDI), an excellent MIDI visualization tool. Our goal is to provide similar functionality in a web context with additional debugging features.
+MIDI Mama is a web (Vue 3) component that brings comprehensive MIDI monitoring capabilities to web applications. This project is inspired by [ShowMIDI](https://github.com/gbevin/ShowMIDI), an excellent MIDI visualization tool. Our goal is to provide similar functionality in a web context with additional debugging features.
 
-## From Native to Web: The ShowMidi Journey
+## From Native to Web: The MIDI Mama Journey
 
-While ShowMIDI excels at providing detailed MIDI analysis in a native application context, we've adapted these capabilities for modern web development workflows. ShowMidi creates a bridge between traditional MIDI monitoring and contemporary web development by:
+While MIDI Mama excels at providing detailed MIDI analysis in a native application context, we've adapted these capabilities for modern web development workflows. MIDI Mama creates a bridge between traditional MIDI monitoring and contemporary web development by:
 
 - Integrating seamlessly with Vue applications while maintaining comprehensive MIDI analysis capabilities
 - Leveraging the Web MIDI API for real-time monitoring directly in the browser
 - Providing a component-based architecture that simplifies MIDI monitoring integration
 - Extending the concept with web-specific features like JSON-based message inspection
 
-## Why ShowMidi?
+## Why MIDI Mama?
 
-Web MIDI applications can be challenging to debug because MIDI messages are typically invisible to developers. ShowMidi addresses this by providing:
+Web MIDI applications can be challenging to debug because MIDI messages are typically invisible to developers. MIDI Mama addresses this by providing:
 
 - Real-time visualization of all MIDI traffic in your application
 - Clear, human-readable interpretation of MIDI messages
@@ -23,7 +23,7 @@ Web MIDI applications can be challenging to debug because MIDI messages are typi
 
 ## Features and Capabilities
 
-ShowMidi provides comprehensive MIDI monitoring capabilities:
+MIDI Mama provides comprehensive MIDI monitoring capabilities:
 
 - **Device Management**: Automatic detection and display of all connected MIDI devices
 - **Message Parsing**: Clear interpretation of various MIDI message types:
@@ -39,12 +39,12 @@ ShowMidi provides comprehensive MIDI monitoring capabilities:
 
 ## Installation
 
-You can integrate ShowMidi into your project in several ways:
+You can integrate MIDI Mama into your project in several ways:
 
 ### NPM Package (Recommended)
 
 ```bash
-npm install https://github.com/AuraTown/aura-midi-debug.git
+npm install https://github.com/AuraTown/MidiMama.git
 ```
 
 ### Manual Download
@@ -53,18 +53,18 @@ You can also download the component directly from the GitHub repository and incl
 
 ## Usage
 
-ShowMidi supports multiple integration patterns to fit different development needs:
+MIDI Mama supports multiple integration patterns to fit different development needs:
 
 ### Modern Vue Application (Composition API)
 
 ```javascript
 // In your Vue component
-import { ShowMidi } from "aura-midi-debug";
-import "aura-midi-debug/dist/style.css";
+import { MidiMama } from "MidiMama";
+import "MidiMama/dist/style.css";
 
 export default {
   components: {
-    ShowMidi,
+    MidiMama,
   },
 };
 ```
@@ -73,12 +73,12 @@ export default {
 
 ```vue
 <template>
-  <ShowMidi />
+  <midi-mama />
 </template>
 
 <script setup>
-import { ShowMidi } from "aura-midi-debug";
-import "aura-midi-debug/dist/style.css";
+import { MidiMama } from "MidiMama";
+import "MidiMama/dist/style.css";
 </script>
 ```
 
@@ -89,7 +89,7 @@ import "aura-midi-debug/dist/style.css";
 <html>
   <head>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="dist/ShowMidi.umd.js"></script>
+    <script src="dist/MidiMama.umd.js"></script>
     <link rel="stylesheet" href="dist/style.css" />
   </head>
   <body>
@@ -100,7 +100,7 @@ import "aura-midi-debug/dist/style.css";
     <script>
       const { createApp } = Vue;
       const app = createApp({});
-      app.component("ShowMidi", ShowMidi);
+      app.component("MidiMama", MidiMama);
       app.mount("#app");
     </script>
   </body>
@@ -109,12 +109,12 @@ import "aura-midi-debug/dist/style.css";
 
 ## Development
 
-If you'd like to contribute to ShowMidi or customize it for your needs, here's how to set up the development environment:
+If you'd like to contribute to MIDI Mama or customize it for your needs, here's how to set up the development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/AuraTown/aura-midi-debug.git
-cd aura-midi-debug
+git clone https://github.com/AuraTown/MidiMama.git
+cd MidiMama
 
 # Install dependencies
 npm install
@@ -131,7 +131,7 @@ npm run preview
 
 ## Browser Compatibility
 
-ShowMidi works in all modern browsers that support the Web MIDI API:
+MIDI Mama works in all modern browsers that support the Web MIDI API:
 
 - Chrome
 - Edge
@@ -158,7 +158,7 @@ if (navigator.requestMIDIAccess) {
 
 ## Roadmap
 
-We're actively working on enhancing ShowMidi with these planned features:
+We're actively working on enhancing MIDI Mama with these planned features:
 
 - Interactive MIDI message sending interface
 - Customizable device filtering options
@@ -188,4 +188,4 @@ Additional thanks go to:
 
 - The Web MIDI API team for enabling MIDI access in browsers
 - The Vue.js community for creating a powerful framework for component development
-- All contributors who help make ShowMidi better
+- All contributors who help make MIDI Mama better

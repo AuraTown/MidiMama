@@ -1,6 +1,6 @@
 <script setup>
 //import HelloWorld from "../../src/components/HelloWorld.vue";
-import ShowMidi from "../../src/ShowMidi.vue";
+import MidiMama from "../../src/MidiMama.vue";
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import ShowMidi from "../../src/ShowMidi.vue";
     </a>
   </div>
 
-  <ShowMidi />
+  <MidiMama />
 </template>
 
 <style scoped>
