@@ -56,6 +56,8 @@ npm install https://github.com/AuraTown/MidiMama.git
 Uninstall (or to update to a newer version)
 ```bash
 npm uninstall midimama
+npm cache clean --force
+npm install https://github.com/AuraTown/MidiMama.git
 ```
 
 
