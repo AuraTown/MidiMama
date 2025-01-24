@@ -7,10 +7,12 @@
     ".": {
       "import": "./dist/MidiMama.es.js",
       "require": "./dist/MidiMama.umd.js"
-    }
+    },
+   "./dist/style.css": "./dist/style.css"
   },
+  "style": "./dist/style.css"
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
  
