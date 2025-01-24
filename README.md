@@ -53,6 +53,12 @@ You can integrate MIDI Mama into your project in several ways:
 npm install https://github.com/AuraTown/MidiMama.git
 ```
 
+Uninstall (or to update to a newer version)
+```bash
+npm uninstall midimama
+```
+
+
 ### Manual Download
 
 You can also download the component directly from the GitHub repository and include it in your project.
