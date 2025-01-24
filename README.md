@@ -73,7 +73,7 @@ MIDI Mama supports multiple integration patterns to fit different development ne
 
 ```javascript
 // In your Vue component
-import { MidiMama } from "MidiMama";
+import MidiMama from "MidiMama";
 import "MidiMama/dist/style.css";
 
 export default {
@@ -91,9 +91,10 @@ export default {
 </template>
 
 <script setup>
-import { MidiMama } from "MidiMama";
-import "MidiMama/dist/style.css";
+import MidiMama from "midimama";
+import "midimama/dist/style.css";
 </script>
+
 ```
 
 ### Direct Browser Usage
