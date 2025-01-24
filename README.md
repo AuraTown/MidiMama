@@ -1,4 +1,6 @@
-# MIDI Mama (web)
+![alt text](./public/MidiMama.png)
+
+# MIDI Mama
 
 MIDI Mama is a web (Vue 3) component that brings comprehensive MIDI monitoring capabilities to web applications. This project is inspired by [ShowMIDI](https://github.com/gbevin/ShowMIDI), an excellent MIDI visualization tool. Our goal is to provide similar functionality in a web context with additional debugging features.
 
