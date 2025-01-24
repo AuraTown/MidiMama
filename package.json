@@ -1,12 +1,12 @@
 {
-  "name": "show-midi-vue-component",
+  "name": "midi-mama-component",
   "files": ["dist"],
-  "main": "./dist/my-component.umd.js",
-  "module": "./dist/my-component.es.js",
+  "main": "./dist/MidiMama.umd.js",
+  "module": "./dist/MidiMama.es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-component.es.js",
-      "require": "./dist/my-component.umd.js"
+      "import": "./dist/MidiMama.es.js",
+      "require": "./dist/MidiMama.umd.js"
     }
   },
   "private": true,
@@ -31,5 +31,6 @@
      "vue-json-pretty": "^2.4.0",
     "@vitejs/plugin-vue": "^5.1.4",
     "vite": "^5.4.9"
-  }
+  },
+  "author": "aura.town"
 }
