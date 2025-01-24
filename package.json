@@ -1,5 +1,5 @@
 {
-  "name": "midi-mama-component",
+  "name": "midimama",
   "files": ["dist"],
   "main": "./dist/MidiMama.umd.js",
   "module": "./dist/MidiMama.es.js",
