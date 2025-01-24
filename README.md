@@ -2,7 +2,11 @@
 
 # MIDI Mama
 
-MIDI Mama is a web (Vue 3) component that brings comprehensive MIDI monitoring capabilities to web applications. This project is inspired by [ShowMIDI](https://github.com/gbevin/ShowMIDI), an excellent MIDI visualization tool. Our goal is to provide similar functionality in a web context with additional debugging features.
+MIDI Mama is a web (Vue 3) component that brings comprehensive MIDI monitoring capabilities to web applications. Our goal is to provide similar functionality than other MIDI debugging tools in a web context with additional debugging features.
+
+## Online MIDI viewer
+
+No need to install any apps. Just access MIDI Mama directly here: https://codex.music/midimama
 
 ## From Native to Web: The MIDI Mama Journey
 
@@ -177,10 +181,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 3. Commit your changes (`git commit -m 'Add YourFeature'`)
 4. Push to your branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
