@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MyComponent Demo</title>
+  <link rel="stylesheet" href="../../dist/style.css">
+  
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="../../dist/ShowMidi.umd.js"></script>
+</head>
+<body>
+  <div id="app">
+    <show-midi text="Hello from demo!" /> 
+  </div>
+  <script>
+    console.log(window.ShowMidi) // Should show your component
+    const { createApp } = Vue
+    const app = createApp({})
+    app.component('ShowMidi', ShowMidi)
+   // console.log(app._context.components.ShowMidi) // Should
+    app.mount('#app')
+  </script>
+</body>
+</html>
