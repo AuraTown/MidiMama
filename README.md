@@ -1,4 +1,4 @@
-![alt text](./public/MidiMama.png)
+![MIDI mama online midi debugger](./public/MidiMama.png)
 
 # MIDI Mama
 
