@@ -10,9 +10,11 @@
     },
    "./dist/style.css": "./dist/style.css"
   },
-  "style": "./dist/style.css"
+  "style": "./dist/style.css",
   "private": true,
+ 
   "version": "0.0.1",
+ 
   "type": "module",
   "scripts": {
  
