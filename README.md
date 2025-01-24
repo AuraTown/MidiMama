@@ -2,7 +2,7 @@
 
 # MIDI Mama
 
-MIDI Mama is a web (Vue 3) component that brings comprehensive MIDI monitoring capabilities to web applications. Our goal is to provide similar functionality than other MIDI debugging tools in a web context with additional debugging features.
+[MIDI Mama]( https://github.com/AuraTown/MidiMama) is a web (Vue 3) component that brings comprehensive MIDI monitoring capabilities to web applications. Our goal is to provide similar functionality than other MIDI debugging tools in a web context with additional debugging features.
 
 ## Online MIDI viewer
 
